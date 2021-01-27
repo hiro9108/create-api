@@ -132,6 +132,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "https://agri-tech-c0c30.web.app"
+    "http://localhost:3000"
 ]
